@@ -1,0 +1,7 @@
+[Unit]
+Description=Mitigación de ataque DoS (bloqueo de IPs abusivas)
+[Service]
+ExecStart=/root/script-mitigaciondos.sh
+[Install]
+WantedBy=multi-user.target
+
